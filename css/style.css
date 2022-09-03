@@ -5,6 +5,7 @@ body{
     text-decoration: none !important;     
 }
 .logo {
+    margin: 15px 20px 15px 20px;
     font-weight: bold;
     font-size: 20px; 
     color: black;
