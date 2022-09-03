@@ -43,6 +43,7 @@ svg{
     fill:#ffffff;
 }
 .conticon{
+    display: flex;
     margin-right: 4px !important;
     margin-top: 4px !important;
     fill:#ffffff !important;
