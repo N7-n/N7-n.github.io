@@ -10,6 +10,9 @@ header{
     font-weight: bold;  
     font-size: 20px; 
 }
+.headicon{
+    display: flex;
+}
 .logo {
     color:white;
     margin: 15px 20px 15px 20px;
