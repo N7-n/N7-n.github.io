@@ -15,7 +15,9 @@ header{
     font-size: 20px; 
     text-decoration: none !important; 
 }
-
+.item-list{
+    list-style: none;
+}
 .site-header {
     position: relative;
 }
