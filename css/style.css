@@ -14,6 +14,7 @@ header{
     font-weight: bold;
     font-size: 26px; 
     text-decoration: none !important; 
+    width: 30%;
 }
 ul{
     list-style: none !important;
@@ -23,10 +24,11 @@ ul{
 .site-header {
     position: relative;
 }
-  
+.item-list{
+    width: 70%;
+}
 .site-header__wrapper {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding-top: 1rem;
     padding-bottom: 1rem; 
