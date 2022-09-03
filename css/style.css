@@ -5,10 +5,9 @@ body{
     font-weight: bold;
     font-size: 20px; 
     color: black;
+    text-decoration: none; 
 }
-a {
-    text-decoration:none; 
-}
+
 .site-header {
     position: relative;
 }
