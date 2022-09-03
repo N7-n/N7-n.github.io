@@ -1,7 +1,7 @@
 body{
     background-color: rgba(191, 191, 191, 0.678);
 }
-a{
+.nav__item{
     text-decoration: none !important;     
 }
 .logo {
