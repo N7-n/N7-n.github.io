@@ -37,7 +37,9 @@ ul{
     display: flex;
     align-items: center;
 }
-img{
+svg{
     width: 25px;
     height: 25px;
+    margin-right: 4px;
+    fill:white;
 }
