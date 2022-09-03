@@ -2,7 +2,7 @@ body{
     background-color: rgba(229, 229, 229, 0.678);
 }
 
-#global-nav {
+header {
 	background-color: rgba(122, 122, 122, 0.678);
 }
 .item{
@@ -51,7 +51,7 @@ ul{
 h1{
     margin-top: 100px !important;
 }
-#global-nav.m_fixed {
+header .fixed {
 	left: 0;
 	position: fixed;
 	top: 0;

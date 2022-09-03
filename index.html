@@ -4,7 +4,6 @@
 </head>
 <body>
     <header class="site-header">
-        <nav id="global-nav">
         <div class="site-header__wrapper">
             <a href="https://N7-n.github.io/" class="logo">Portfolio</a>
             <ul class="item-list">
@@ -80,7 +79,6 @@
                     <a class="item" href="#">Contact</a></div></li>
             </ul>
         </div>
-        </nav>
     </header>
     <h1>Test</h1>
     <h1>Test2</h1>
@@ -94,17 +92,25 @@
     <h1>Test10</h1>
 
 <script>
-    var navPos = jQuery( '#global-nav' ).offset().top; // グローバルメニューの位置
-    var navHeight = jQuery( '#global-nav' ).outerHeight(); // グローバルメニューの高さ
-    jQuery( window ).on( 'scroll', function() {
-        if ( jQuery( this ).scrollTop() > navPos ) {
-            jQuery( 'body' ).css( 'padding-top', navHeight );
-            jQuery( '#global-nav' ).addClass( 'm_fixed' );
-        } else {
-            jQuery( 'body' ).css( 'padding-top', 0 );
-            jQuery( '#global-nav' ).removeClass( 'm_fixed' );
-        }
-    });
-    
+//スクロールすると上部に固定させるための設定を関数でまとめる
+function FixedAnime() {
+  var headerH = $('#header').outerHeight(true);
+  var scroll = $(window).scrollTop();
+  if (scroll >= headerH){//headerの高さ以上になったら
+      $('#header').addClass('fixed');//fixedというクラス名を付与
+    }else{//それ以外は
+      $('#header').removeClass('fixed');//fixedというクラス名を除去
+    }
+}
+
+//ナビゲーションをクリックした際のスムーススクロール
+$('#g-navi a').click(function () {
+  var elmHash = $(this).attr('href'); //hrefの内容を取得
+  var pos = Math.round($(elmHash).offset().top-120);  //headerの高さを引く
+  $('body,html').animate({scrollTop: pos}, 500);//取得した位置にスクロール※数値が大きいほどゆっくりスクロール
+  return false;//リンクの無効化
+});
+
+
     </script>
 </body>
