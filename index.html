@@ -3,6 +3,21 @@
     <link rel="stylesheet" href="https://N7-n.github.io/css/style.css">
 </head>
 <body>
+    
+    <script>
+
+        function FixedAnime() {
+            var headerH = $('#header').outerHeight(true);
+            var scroll = $(window).scrollTop();
+            if (scroll >= headerH){
+                $('#header').addClass('fixed');
+            }else{
+                $('#header').removeClass('fixed');
+            }
+        }
+        
+    </script>
+
     <header class="site-header" id="header">
         <div class="site-header__wrapper">
             <a href="https://N7-n.github.io/" class="logo">Portfolio</a>
@@ -91,17 +106,4 @@
     <h1>Test9</h1>
     <h1>Test10</h1>
 
-<script>
-
-function FixedAnime() {
-    var headerH = $('#header').outerHeight(true);
-    var scroll = $(window).scrollTop();
-    if (scroll >= headerH){
-        $('#header').addClass('fixed');
-    }else{
-        $('#header').removeClass('fixed');
-    }
-}
-
-</script>
 </body>
