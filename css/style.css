@@ -17,6 +17,8 @@ header{
 }
 ul{
     list-style: none !important;
+    display: flex;
+    justify-content: space-evenly
 }
 .site-header {
     position: relative;
