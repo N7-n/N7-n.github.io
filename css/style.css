@@ -6,7 +6,9 @@ header{
 }
 .item{
     color:white;
-    text-decoration: none !important;     
+    text-decoration: none !important;   
+    font-weight: bold;  
+    font-size: 26px; 
 }
 .logo {
     color:white;
