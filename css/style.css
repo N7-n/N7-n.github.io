@@ -1,8 +1,9 @@
 body{
     background-color: rgba(229, 229, 229, 0.678);
 }
-header{
-    background-color: rgba(122, 122, 122, 0.678);
+
+#global-nav {
+	background-color: rgba(122, 122, 122, 0.678);
 }
 .item{
     color:white;
