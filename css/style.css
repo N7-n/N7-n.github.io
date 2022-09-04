@@ -60,8 +60,7 @@ img{
 
 .imgtext{
     position: absolute;
-    top:center;
-    left:center;
+    text-align: center;
     font-size:50px;
     color: white;
     padding:0;
