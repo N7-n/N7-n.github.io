@@ -52,3 +52,7 @@ ul{
 h1{
     margin-top: 100px !important;
 }
+img{
+    width: 100%;
+    height: auto;
+}
