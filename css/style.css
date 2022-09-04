@@ -3,6 +3,7 @@ body{
 }
 #header{
     background-color: rgba(122, 122, 122, 0.678);
+    width:100%;
 }
 .item{
     color:white;
@@ -51,7 +52,8 @@ h1{
     margin-top: 100px !important;
 }
 #header.fixed {
-	left: 0;
-	position: fixed;
-	top: 0;
+    position: fixed;
+    z-index: 999;
+    top:0;
+    left:0;
 }
