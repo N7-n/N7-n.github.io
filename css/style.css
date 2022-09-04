@@ -119,10 +119,12 @@ img{
     display: flex;
 }
 .profile-photo{
-    width: 30%;
+    margin-top: 25px;
+    width: 40%;
 }
 .profile-text{
-    width: 70%;
+    margin-top: 25px;
+    width: 60%;
 }
 
 .profile-photo img{
