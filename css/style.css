@@ -81,9 +81,8 @@ img{
   }
   .content-contact{
     display: flex;
-    top:0%;
-    left:50%;
-    transform: translate(0%,-50%);
+    width: 100%;
+    align-items: center;
   }
   .content-mailicon{
     margin-right: 4px;
