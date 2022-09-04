@@ -119,11 +119,9 @@ img{
     display: flex;
 }
 .profile-photo{
-    margin-top: 25px;
     width: 40%;
 }
 .profile-text{
-    margin-top: 25px;
     width: 60%;
 }
 
@@ -132,4 +130,7 @@ img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+#profile{
+    margin-top: 30px;
 }
