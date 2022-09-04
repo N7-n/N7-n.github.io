@@ -86,6 +86,17 @@ img{
   }
   .content-mailicon{
     margin-right: 4px;
-    margin-top: 20px;
+    margin-top: 18px;
     fill:black;
+}
+
+.contact-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-item{
+    width:40%;
+
 }
