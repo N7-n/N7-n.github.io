@@ -82,7 +82,7 @@ img{
   .content-contact{
     display: flex;
     width: 100%;
-    align-items: center;
+    margin: 0 auto;
   }
   .content-mailicon{
     margin-right: 4px;
