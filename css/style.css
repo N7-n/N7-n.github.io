@@ -134,3 +134,7 @@ img{
 #profile{
     margin-top: 30px;
 }
+
+.profile-text p{
+    text-align: left;
+}
