@@ -89,7 +89,11 @@ img{
     margin-top: 18px;
     fill:black;
 }
-
+.content-personcon{
+    margin-right: 4px;
+    margin-top: 15px;
+    fill:black;
+}
 .contact-main{
     width: 100%;
     display: flex;
