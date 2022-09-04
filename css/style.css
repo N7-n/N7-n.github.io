@@ -162,7 +162,7 @@ img{
         width: 50%;
     }
     .profile-photo img{
-        margin:0 auto;
+        margin:0 auto !important;
         width: 150px;
         height: 150px;
         border-radius: 50%;
