@@ -83,3 +83,8 @@ img{
     display: flex;
     align-items: center;
   }
+  .content-mailicon{
+    margin-right: 4px;
+    margin-top: 8px;
+    fill:black;
+}
