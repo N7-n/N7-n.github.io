@@ -141,7 +141,9 @@ img{
 }
 .awards{
     font-size: 18px;
+    margin-bottom: 20px;
 }
 .award{
+    margin-top: 20px;
     font-size: 46px;
 }
