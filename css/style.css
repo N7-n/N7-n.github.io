@@ -68,7 +68,6 @@ img{
     margin:0;
   }
   .container{
-    width:600px;
-    height: 600px;
+    width: 100%;
     position: relative;
   }
