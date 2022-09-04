@@ -104,7 +104,4 @@ img{
 .contact-text{
     width: 150px !important; 
     height: 150px !important;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
 }
