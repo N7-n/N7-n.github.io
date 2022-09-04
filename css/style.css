@@ -55,4 +55,20 @@ h1{
 img{
     width: 100%;
     height: auto;
+    opacity: 0.8;
 }
+
+.imgtext{
+    position: absolute;
+    top:0;
+    left:0;
+    font-size:30px;
+    color: white;
+    padding:0;
+    margin:0;
+  }
+  .container{
+    width:600px;
+    height: 600px;
+    position: relative;
+  }
