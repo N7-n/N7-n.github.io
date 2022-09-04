@@ -119,14 +119,14 @@ img{
     display: flex;
 }
 .profile-photo{
-    width: 50%;
+    width: 40%;
 }
 .profile-text{
-    width: 50%;
+    width: 60%;
 }
 
 .profile-photo img{
-    margin:0 auto;
+    margin:0 0 0 auto;
     width: 150px;
     height: 150px;
     border-radius: 50%;
