@@ -73,3 +73,13 @@ img{
     width: 100%;
     position: relative;
   }
+  .title{
+      font-size: 34px;
+  }
+  .contact{
+      width: 100%;
+  }
+  .content-contact{
+    display: flex;
+    align-items: center;
+  }
