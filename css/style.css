@@ -109,6 +109,7 @@ img{
     align-items: center;
 }
 .contact-text{
+    border-radius: 50%;
     width: 135px !important; 
     height: 135px !important;
 }
