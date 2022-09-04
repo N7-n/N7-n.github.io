@@ -112,3 +112,19 @@ img{
     width: 135px !important; 
     height: 135px !important;
 }
+.profile-main{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 45px;
+    display: flex;
+}
+.profile-photo{
+    width: 30%;
+}
+.profile-text{
+    width: 70%;
+}
+
+.profile-photo img{
+    margin:0 auto;
+}
