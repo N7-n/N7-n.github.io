@@ -161,4 +161,10 @@ img{
     .profile-text{
         width: 50%;
     }
+    .profile-photo img{
+        margin:0 auto;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
 }
