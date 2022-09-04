@@ -27,9 +27,6 @@ ul{
     display: flex !important;
     justify-content: space-evenly !important;
 }
-.site-header {
-    position: relative;
-}
 .item-list{
     width: 80%;
     padding: 0 !important;
