@@ -5,6 +5,9 @@ header{
     background-color: rgba(104, 104, 104, 0.678);
     width:100%;
     position: fixed !important;
+    z-index: 999;
+    top:0;
+    left:0;
 }
 .item{
     color:white;
