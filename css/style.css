@@ -57,7 +57,10 @@ img{
     height: auto;
     opacity: 0.8;
 }
-
+.aa{
+    width: 30px;
+     height:30px;
+}
 .imgtext{
     position: absolute;
     top:50%;
