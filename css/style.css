@@ -59,7 +59,7 @@ img{
 }
 .aa{
     width: 30px !important;
-     height:30px !important;
+    height:30px !important;
 }
 .imgtext{
     position: absolute;
@@ -144,6 +144,11 @@ img{
     padding-left: 25px;
     padding-right: 30px;
     font-size: 20px;
+}
+.profile-text a{
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 30px;
 }
 .awards{
     margin-top: 20px;
