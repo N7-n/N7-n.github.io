@@ -147,8 +147,7 @@ img{
 }
 .profile-text a{
     text-align: left;
-    padding-left: 25px;
-    padding-right: 30px;
+    margin-left: 25px;
 }
 .awards{
     margin-top: 20px;
