@@ -144,6 +144,11 @@ img{
     height: 150px;
     border-radius: 50%;
 }
+.works-text{
+    width:50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
 #profile{
     margin-top: 30px;
 }
