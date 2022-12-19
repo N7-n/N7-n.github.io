@@ -103,6 +103,13 @@ img{
     justify-content: space-around;
 }
 
+.works-main{
+    width: 100%;
+}
+.works-content{
+    width: 90%;
+}
+
 .contact-item{
     margin-top: 35px;
     margin-bottom: 35px;
